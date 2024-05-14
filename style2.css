@@ -11,25 +11,29 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-  }
-  .container {
+}
+  
+.container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  label {
+}
+  
+label {
     display: block;
     margin-bottom: 5px;
-  }
+}
+
   input {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
-  }
-  button {
+}
+
+button {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -37,4 +41,4 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
