@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./ex-3.js"></script>
+    <link rel="stylesheet" href="style3.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <title>Exercicio-3</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Taxa de Desconto</h2>
+        <form id="formFolhaPagamento">
+          <!-- <label for="nome">Nome do Funcionário:</label>
+          <input type="text" id="nome" required> -->
+          <label for="salario">Salário Bruto:</label>
+          <input type="number" id="salario" required>
+          <label for="taxa-desconto">Taxa Desconto:</label>
+          <input type="text" id="taxa-desconto" readonly>
+          <label for="valor-descontado">Valor Descontado:</label>
+          <input type="number" id="valor-descontado" readonly>
+          <label for="liquido">Salário Líquido:</label>
+          <input type="number" id="liquido" readonly>
+          <button type="button" onclick="calcular()">Calcular</button>
+        </form>
+      </div>
+</body>
+</html>
